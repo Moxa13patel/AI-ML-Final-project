@@ -32,15 +32,13 @@ Streamlit (Web UI)
 bash
 Copy
 Edit
-├── app/
-│   ├── chatbot.py          # Chat logic using fine-tuned model
-│   ├── routes.py           # Flask route for message handling
-├── frontend/
-│   └── streamlit_app.py    # Streamlit interface
-├── fine-tune.py            # Fine-tuning script for DialoGPT
-├── dialoGPT_empathetic/    # Directory with saved fine-tuned model
-├── main.py                 # Flask app entry point
-└── requirements.txt
+ chatbot.py             # Chat logic using fine-tuned model
+routes.py               # Flask route for message handling
+streamlit_app.py        # Streamlit interface
+fine-tune.py            # Fine-tuning script for DialoGPT
+https://huggingface.co/moxa-ai-13/fine_tuned_dialoGPT    # Directory with saved fine-tuned model
+main.py                 # Flask app entry point
+requirements.txt
 ## How to Run
 Clone the repository and install dependencies:
 
